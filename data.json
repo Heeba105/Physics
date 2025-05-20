@@ -1,0 +1,277 @@
+{
+    "qna": [
+        {
+            "question": "1. What is Alternating Current (AC)?",
+            "answer": [
+                "Alternating current (AC) is an electric current that changes direction periodically.",
+                "The voltage and current in an AC circuit vary sinusoidally with time.",
+                "The frequency of an AC circuit is the number of cycles per second and is measured in hertz (Hz).",
+                "The period of an AC circuit is the time taken for one complete cycle and is given by T = 1/f, where T is the period and f is the frequency."
+            ]
+        },
+        {
+            "question": "2. What is the equation of alternating current?",
+            "answer": [
+                "The equation of alternating current is E = E0 sinωt.",
+                "E0 is the maximum value of the emf, ω is the angular frequency, and t is the time."
+            ]
+        },
+        {
+            "question": "3. What is Direct Current (DC)?",
+            "answer": [
+                "Direct current (DC) is an electric current that flows in one direction only.",
+                "The voltage and current in a DC circuit are constant with time.",
+                "The frequency of a DC circuit is zero, and the period is infinite."
+            ]
+        },
+        {
+            "question": "4. What are the advantages of AC over DC?",
+            "answer": [
+                "AC can be easily converted to different voltages using transformers.",
+                "AC can be transmitted over long distances with less power loss.",
+                "AC can be easily converted to other forms of energy, such as mechanical energy in motors.",
+                "AC can be easily generated using alternators."
+            ]
+        },
+        {
+            "question": "5. What are the average and RMS values of AC?",
+            "answer": [
+                "The average value of an AC over one full cycle is zero since there are equal positive and negative half cycles.",
+                "The average current for half cycle is 2I0/π where I0 is the maximum current.",
+                "The root mean square (RMS) value of an AC is the value of the direct current that would produce the same heating effect as the AC.",
+                "The RMS value of an AC is given by Irms = I0/√2 = 0.707I0, where I0 is the maximum current.",
+                "Similarly, the RMS value of alternating voltage is Vrms = V0/√2 = 0.707V0."
+            ]
+        },
+        {
+            "question": "6. What is the time period of AC?",
+            "answer": [
+                "The time period of an AC is the time taken for one complete cycle.",
+                "The time period is given by T = 1/f, where T is the time period and f is the frequency.",
+                "The SI unit of time period is seconds (s).",
+                "T = 2π/ω."
+            ]
+        },
+        {
+            "question": "7. What is phase difference in AC?",
+            "answer": [
+                "Phase difference is the property of wave motion which tells us the position of the particle at any instant as well as its direction of motion.",
+                "It is measured either by the angle which the particles makes with the mean position or by the fraction of time period.",
+                "The phase angle is the angle by which one wave leads or lags another wave.",
+                "When the phase angle is positive, the wave is said to lead the other wave.",
+                "When the phase angle is negative, the wave is said to lag the other wave."
+            ]
+        },
+        {
+            "question": "8. What is impedance in an AC circuit?",
+            "answer": [
+                "Impedance is the total opposition to the flow of current in an AC circuit.",
+                "Impedance is the vector sum of resistance, inductive reactance, and capacitive reactance.",
+                "Z = E/I = E0/I0 = Erms/Irms."
+            ]
+        },
+        {
+            "question": "9. What is reactance in an AC circuit?",
+            "answer": [
+                "The indifference offered by the inductance and capacitance or both to the flow of alternating current is called reactance.",
+                "The inductive reactance is given by XL = ωL, where XL is the inductive reactance, ω is the angular frequency, and L is the inductance.",
+                "The capacitive reactance is given by XC = 1/ωC, where XC is the capacitive reactance, ω is the angular frequency, and C is the capacitance.",
+                "The total reactance is given by X = XL - XC, where X is the total reactance, XL is the inductive reactance, and XC is the capacitive reactance."
+            ]
+        },
+        {
+            "question": "10. What is admittance in an AC circuit?",
+            "answer": [
+                "Admittance is the reciprocal of impedance and is the total conductance of an AC circuit.",
+                "Admittance is the vector sum of conductance, susceptance, and conductance.",
+                "Y = 1/Z."
+            ]
+        },
+        {
+            "question": "11. What happens in an AC circuit with resistance only?",
+            "answer": [
+                "In a pure ohmic resistor of resistance R connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/R = E0 sinωt/R = I0 sinωt, where I0 = E0/R.",
+                "The impedance of the circuit, Z = R, and the phase difference between current and emf is zero."
+            ]
+        },
+        {
+            "question": "12. What happens in an AC circuit with inductor only?",
+            "answer": [
+                "In a pure inductor of inductance L connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/XL = E0 sinωt/XL = I0 sin(ωt - π/2), where I0 = E0/XL.",
+                "The impedance of the circuit, Z = XL, and the phase difference between current and emf is π/2."
+            ]
+        },
+        {
+            "question": "13. What happens in an AC circuit with capacitor only?",
+            "answer": [
+                "In a pure capacitor of capacitance C connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/XC = E0 sinωt/XC = I0 sin(ωt + π/2), where I0 = E0/XC.",
+                "The impedance of the circuit, Z = XC, and the phase difference between current and emf is -π/2."
+            ]
+        },
+        {
+            "question": "14. What happens in an AC circuit with resistance and inductor?",
+            "answer": [
+                "In a circuit with a resistor of resistance R and an inductor of inductance L connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/Z = E0 sinωt/Z = I0 sin(ωt - φ), where I0 = E0/Z.",
+                "The impedance of the circuit, Z = √(R² + XL²), and the phase difference between current and emf is tan⁻¹(XL/R)."
+            ]
+        },
+        {
+            "question": "15. What happens in an AC circuit with resistance and capacitor?",
+            "answer": [
+                "In a circuit with a resistor of resistance R and a capacitor of capacitance C connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/Z = E0 sinωt/Z = I0 sin(ωt + φ), where I0 = E0/Z.",
+                "The impedance of the circuit, Z = √(R² + XC²), and the phase difference between current and emf is tan⁻¹(-XC/R)."
+            ]
+        },
+        {
+            "question": "16. What happens in an AC circuit with resistance, inductor, and capacitor?",
+            "answer": [
+                "In a circuit with a resistor of resistance R, an inductor of inductance L, and a capacitor of capacitance C connected to an AC source of emf E = E0 sinωt, the current in the circuit is given by I = E/Z = E0 sinωt/Z = I0 sin(ωt - φ), where I0 = E0/Z.",
+                "The impedance of the circuit, Z = √(R² + (XL - XC)²), and the phase difference between current and emf is tan⁻¹((XL - XC)/R).",
+                "The p.d of VR is in phase with current, p.d of VL leads the current by π/2 and p.d of VC lags the current by π/2.",
+                "Resultant applied emf E = sqrt(VR² + (VL - VC)²) = sqrt((IR)² + (IXL - IXC)²).",
+                "tanφ = (IXC - IXL)/IR = (XC - XL)/R.",
+                "If XC > XL, the circuit is capacitive and current leads the emf by an angle φ.",
+                "If XL > XC, the circuit is inductive and current lags the emf by an angle φ.",
+                "If XL = XC, the circuit is resistive and current is in phase with emf."
+            ]
+        },
+        {
+            "question": "17. What is resonance in an AC circuit?",
+            "answer": [
+                "If XL = XC, the circuit is in resonance.",
+                "The frequency at which the circuit is in resonance is called the resonant frequency.",
+                "The resonant frequency is given by f = 1/2π√(LC), where f is the resonant frequency, L is the inductance, and C is the capacitance.",
+                "At resonance, the impedance of the circuit is minimum, and the current is maximum.",
+                "The power factor of the circuit is unity at resonance.",
+                "Zmin = R, Imax = E0/R, φ = 0."
+            ]
+        },
+        {
+            "question": "18. What is power in an AC circuit?",
+            "answer": [
+                "The power is defined as the rate at which work is being done in the circuit.",
+                "Let E = E0 sinωt and I = I0 sin(ωt + φ) be the emf and current in the circuit.",
+                "Instantaneous power: P = E.I = E0 sinωt * I0 sin(ωt + φ).",
+                "Average power: Pav = Erms Irms cosφ.",
+                "In this expression, cosφ is called the power factor of the circuit.",
+                "For L-C circuit, power factor is 0.",
+                "For R circuit, power factor is 1.",
+                "For all circuits, cosφ = R/Z.",
+                "If R = 0, cosφ = 0 and Pav = 0, i.e., in a circuit with no resistance, the power loss is zero. Such a circuit is called a wattless circuit, and the current in such a circuit is called wattless current.",
+                "Power is of two types:",
+                "Reactive power: Preactive = Erms Irms sinφ (also called wattless power as it is not consumed in the circuit).",
+                "Active power: Pactive = Erms Irms cosφ (the power consumed in the circuit)."
+            ]
+        },
+        {
+            "question": "19. What is the growth and decay of current in an L-R circuit?",
+            "answer": [
+                "The current in an L-R circuit grows exponentially with time.",
+                "The current is given by I = I0(1 - e^(-t/τ)), where I0 is the maximum current, t is the time, and τ is the time constant of the circuit.",
+                "The time constant of the circuit is given by τ = L/R, where L is the inductance and R is the resistance.",
+                "The current in an L-R circuit decays exponentially with time.",
+                "The current is given by I = I0e^(-t/τ), where I0 is the maximum current, t is the time, and τ is the time constant of the circuit."
+            ]
+        },
+        {
+            "question": "20. What are LC oscillations?",
+            "answer": [
+                "An LC circuit consists of a capacitor of capacitance C and an inductor of inductance L connected in series.",
+                "The LC circuit undergoes oscillations with a frequency of f = 1/2π√(LC), where f is the frequency, L is the inductance, and C is the capacitance.",
+                "The energy in the LC circuit oscillates between the electric field of the capacitor and the magnetic field of the inductor.",
+                "The total energy in the LC circuit is constant and is given by E = 1/2Q²/C + 1/2LI², where Q is the charge on the capacitor and I is the current in the inductor."
+            ]
+        },
+        {
+            "question": "21. What is a transformer?",
+            "answer": [
+                "A transformer is a device that changes the voltage of an alternating current.",
+                "A transformer consists of two coils, a primary coil and a secondary coil, wound on a common iron core.",
+                "The primary coil is connected to the input voltage, and the secondary coil is connected to the output voltage.",
+                "The voltage ratio of a transformer is given by Vp/Vs = Np/Ns, where Vp and Vs are the primary and secondary voltages, and Np and Ns are the number of turns in the primary and secondary coils.",
+                "The current ratio of a transformer is given by Ip/Is = Ns/Np, where Ip and Is are the primary and secondary currents, and Ns and Np are the number of turns in the secondary and primary coils."
+            ]
+        },
+        {
+            "question": "22. What are step-up and step-down transformers?",
+            "answer": [
+                "A step-up transformer increases the voltage of an alternating current.",
+                "The primary coil has fewer turns than the secondary coil.",
+                "The voltage ratio of a step-up transformer is greater than 1.",
+                "A step-down transformer decreases the voltage of an alternating current.",
+                "The primary coil has more turns than the secondary coil.",
+                "The voltage ratio of a step-down transformer is less than 1."
+            ]
+        },
+        {
+            "question": "23. What is the efficiency of a transformer?",
+            "answer": [
+                "The efficiency of a transformer is the ratio of the output power to the input power.",
+                "The efficiency of a transformer is given by η = output power / input power = VsIs / VpIp = (Vs/Vp)(Is/Ip) = (Ns/Np)(Ip/Is) = (Ns/Np)².",
+                "The efficiency of a transformer is always less than 1 due to energy losses in the transformer."
+            ]
+        },
+        {
+            "question": "24. PRACTICE PROBLEMS: Alternating Current",
+            "answer": [
+                "1. Calculate the RMS value of an AC with a maximum value of 10 A.",
+                "Solution: Irms = I0/√2 = 10/√2 = 7.07 A",
+                "2. Calculate the RMS value of an AC with a maximum value of 5 A.",
+                "Solution: Irms = I0/√2 = 5/√2 = 3.54 A",
+                "3. Calculate the RMS value of an AC with a maximum value of 15 A.",
+                "Solution: Irms = I0/√2 = 15/√2 = 10.61 A"
+            ]
+        },
+        {
+            "question": "25. PRACTICE PROBLEMS: Impedance and Reactance",
+            "answer": [
+                "1. Calculate the inductive reactance of a coil with an inductance of 2 H and an angular frequency of 10 rad/s.",
+                "Solution: XL = ωL = 10 x 2 = 20 Ω",
+                "2. Calculate the capacitive reactance of a capacitor with a capacitance of 5 F and an angular frequency of 5 rad/s.",
+                "Solution: XC = 1/ωC = 1/(5 x 5) = 0.2 Ω",
+                "3. Calculate the impedance of a circuit with a resistance of 5 Ω, an inductive reactance of 10 Ω, and a capacitive reactance of 5 Ω.",
+                "Solution: Z = √(R² + (XL - XC)²) = √(5² + (10 - 5)²) = √(25 + 25) = √50 Ω"
+            ]
+        },
+        {
+            "question": "26. PRACTICE PROBLEMS: Power in AC circuit",
+            "answer": [
+                "1. Calculate the average power in an AC circuit with an RMS voltage of 10 V and an RMS current of 5 A.",
+                "Solution: Pav = Erms Irms cosφ = 10 x 5 x 1 = 50 W",
+                "2. Calculate the average power in an AC circuit with an RMS voltage of 15 V and an RMS current of 3 A.",
+                "Solution: Pav = Erms Irms cosφ = 15 x 3 x 1 = 45 W",
+                "3. Calculate the average power in an AC circuit with an RMS voltage of 20 V and an RMS current of 2 A.",
+                "Solution: Pav = Erms Irms cosφ = 20 x 2 x 1 = 40 W"
+            ]
+        },
+        {
+            "question": "27. PRACTICE PROBLEMS: Varying current",
+            "answer": [
+                "1. Calculate the current in an L-R circuit with a maximum current of 10 A, a resistance of 5 Ω, and an inductance of 2 H at a time of 2 s.",
+                "Solution: I = I0(1 - e^(-t/τ)) = 10(1 - e^(-2/2)) = 10(1 - e^-1) = 10(1 - 0.3679) = 6.32 A",
+                "2. Calculate the current in an L-R circuit with a maximum current of 15 A, a resistance of 3 Ω, and an inductance of 3 H at a time of 3 s.",
+                "Solution: I = I0(1 - e^(-t/τ)) = 15(1 - e^(-3/3)) = 15(1 - e^-1) = 15(1 - 0.3679) = 9.95 A",
+                "3. Calculate the current in an L-R circuit with a maximum current of 20 A, a resistance of 2 Ω, and an inductance of 4 H at a time of 4 s.",
+                "Solution: I = I0(1 - e^(-t/τ)) = 20(1 - e^(-4/4)) = 20(1 - e^-1) = 20(1 - 0.3679) = 12.64 A"
+            ]
+        },
+        {
+            "question": "28. PRACTICE PROBLEMS: Transformer",
+            "answer": [
+                "1. Calculate the voltage ratio of a transformer with 1000 turns in the primary coil and 2000 turns in the secondary coil.",
+                "Solution: Vp/Vs = Np/Ns = 1000/2000 = 0.5",
+                "2. Calculate the current ratio of a transformer with 500 turns in the primary coil and 1000 turns in the secondary coil.",
+                "Solution: Ip/Is = Ns/Np = 1000/500 = 2",
+                "3. Calculate the efficiency of a transformer with an output power of 100 W and an input power of 120 W.",
+                "Solution: η = output power / input power = 100 / 120 = 0.83"
+            ]
+        },
+        {
+            "question": "29. PRACTICE PROBLEMS: Resonance",
+            "answer": [
+                "1. Calculate the resonant frequency of an LC circuit with an inductance of 2 H and a capacitance of 5 F.",
+                "Solution: f = 1/2π√(LC) = 1/2π√(2 x 5) = 1/2π√10 = 0.159 Hz"
+            ]
+        }
+    ]
+}
